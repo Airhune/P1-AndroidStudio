@@ -10,5 +10,9 @@
     <string name="txt1">Text 1</string>
     <string name="txt2">Text 2</string>
     <string name="txt3">Text 3</string>
+    <string name="txtheader">HEADER</string>
+    <string name="button1">33%</string>
+    <string name="button2">66%</string>
+    <string name="button3">10%</string>
     <string name="recover">Recover your password</string>
 </resources>

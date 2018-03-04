@@ -13,13 +13,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    @Override
+    public void onBackPressed()
+    {
+        moveTaskToBack(true);
+        finish();
+    }
+
     public void goLogin(View view){
-        Intent intent = new Intent(this, LoginActivity.class);
+        Intent intent = new Intent (this, LoginActivity.class);
         startActivity(intent);
     }
 
     public void goRecoverpw(View view){
-        Intent intent = new Intent(this, RecoverPwActivity.class);
+        Intent intent = new Intent (this, RecoverPwActivity.class);
         startActivity(intent);
     }
+
 }

@@ -18,8 +18,7 @@
         android:layout_marginRight="50dp"
         android:layout_marginTop="100dp"
         android:layout_marginBottom="20dp"
-        android:textSize="25sp"
-        android:layout_centerHorizontal="true"/>
+        android:textSize="25sp"/>
 
     <EditText
         android:id="@+id/user_field"
@@ -28,6 +27,7 @@
         android:layout_height="50dp"
         android:layout_marginBottom="20dp"
         android:inputType="text"
+        android:textColor="@color/colorWhite"
         android:hint="@string/email"
         android:textColorHint="@color/colorLightGrey"
         android:layout_marginLeft="50dp"
@@ -49,6 +49,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_height="48dp"
                 android:layout_weight="1"
+                android:onClick="goBack"
                 android:text="@string/back"
                 android:theme="@style/MyButton"/>
 
